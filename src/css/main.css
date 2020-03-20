@@ -1,0 +1,10 @@
+@import './variables.css';
+@import "./modules/loader.css";
+@import "./modules/productList.css";
+@import "./modules/shopcart.css";
+@import "./modules/success.css";
+
+*{
+  padding: 0;
+  margin: 0;
+}

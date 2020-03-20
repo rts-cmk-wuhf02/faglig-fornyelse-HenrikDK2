@@ -1,0 +1,45 @@
+<%- include('../partials/head.ejs') %>
+<script src="/assets/javascript/main.js" defer></script>
+<title>Webshop - forside</title>
+<%- include('../partials/after-head.ejs') %>
+<%- include('../partials/header.ejs') %>
+<main>
+  <ul id="productList">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </ul>
+
+  <div class="shopcart">
+    <ul class="cartList"></ul>
+    <h2 class="shopcart__priceText">Total: <span class="shopcart__price"></span></h2>
+    <button class="shopcart__buy">Køb</button>
+  </div>
+</main>
+
+<template id="shopcart-item">
+  <li class="cartList__items">
+    <img class="cardList__img" src="http://placehold.it/50" alt="">
+    <input type="number" class="cartList__amount" value="25" min="1">
+    <h3 class="cartList__title">Pokemon Name</h3>
+    <h3 class="cartList__priceText"><span class="cartList__price">24422</span>KR</h3>
+    <ion-icon class="cardList__remove" name="close-circle-outline"></ion-icon>
+  </li>
+</template>
+
+<template id="productTemplate">
+  <li class="product">
+    <img src="" alt="" class="product__img">
+    <h3 class="product__title"></h3>
+    <ul class="product__desc-list"></ul>
+    <div class="product__checkout">
+      <p class="product__priceText">Pr. item: <span class="product__price"></span>KR</p>
+      <input type="number" min="1" value="1" class="product__amount">
+      <button class="product__add">Tilføj</button>
+    </div>
+  </li>
+</template>
+<%- include('../partials/footer.ejs') %>
+<%- include('../partials/after-body.ejs') %>
