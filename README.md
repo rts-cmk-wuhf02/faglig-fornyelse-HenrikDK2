@@ -15,13 +15,13 @@ Du skal som det fremgår umiddebart herover demonstere at du kan anvende den til
   d. Hvilke alternative teknologier du kunne have brugt.<br>
   e. Lidt om de fordele eller ulemper som du har erfaret omkring den aktuelle teknologi.<br>
 
-1. En kort beskrivelse af det produkt du vil udvikle.
+1. En kort beskrivelse af det produkt du vil udvikle.  
 Jeg har lavet et eksemple på en webshop som har en betalingsservice integrere, så der er mulighed til at købe de produkter som er på siden. 
 
-2. En beskrivelse af den teknologi du vil anvende i udviklingen
+2. En beskrivelse af den teknologi du vil anvende i udviklingen  
 Jeg har valgt at bruge Stripe for en hurtig og nem intergration af betalingsmuligheder på min webshop.
 
-3. En liste over de ressourcer som har hjulpet dig i processen
+3. En liste over de ressourcer som har hjulpet dig i processen  
 - https://stripe.com/docs
 - https://www.npmjs.com/package/body-parser
 
