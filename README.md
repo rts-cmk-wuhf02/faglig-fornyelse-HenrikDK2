@@ -10,24 +10,10 @@ Du skal som det fremgår umiddebart herover demonstere at du kan anvende den til
 
 0. En kort video* præsentation af det færdige produkt. I videoen* skal du forklare:<br>
   a. Hvad du har udviklet.<br>
-  En Webshop med mulighed til at købe produkter.
-  
   b. Hvilken teknologi du har anvendt.<br>
-  Stripe
-
   c. Hvorfor du har anvendt den aktuelle teknologi.<br>
-  Jeg valgte Stripe fordi det er et populært Betalingsservice med en god dokumentation.
-
   d. Hvilke alternative teknologier du kunne have brugt.<br>
-  Paypal, Braintree, Square og mange andre betalingsservicer. 
-
   e. Lidt om de fordele eller ulemper som du har erfaret omkring den aktuelle teknologi.<br>
-  - +Nemt at setup, og har mange muligheder for betaling som Applepay.
-  - +God dokumentation, den var ikke uoverskuelig.
-  - +Der er mulighed for at bruge en forudoprette Checkout for hurtig integration af servicen.
-  - -Der er transaktionsgebyr ved at bruge de her betalingsservicer.
-  - -Hvis jeg sammenligner Stripe med andre betalingsservicer som Paypal, så er paypal hurtigerer at integrere.
-
 
 1. En kort beskrivelse af det produkt du vil udvikle.
 Jeg har lavet et eksemple på en webshop som har en betalingsservice integrere, så der er mulighed til at købe de produkter som er på siden. 
